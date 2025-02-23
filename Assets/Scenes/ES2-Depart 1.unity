@@ -1799,11 +1799,11 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8298684462619277302, guid: 20c0aa25022fd474ebac164d517acaa3,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8632670369948054855}
+      addedObject: {fileID: 8632670369948054859}
     - targetCorrespondingSourceObject: {fileID: 8298684462619277302, guid: 20c0aa25022fd474ebac164d517acaa3,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8632670369948054859}
+      addedObject: {fileID: 8632670369948054860}
   m_SourcePrefab: {fileID: 100100000, guid: 20c0aa25022fd474ebac164d517acaa3, type: 3}
 --- !u!4 &8632670369948054854 stripped
 Transform:
@@ -1811,21 +1811,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3635746710492279695}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8632670369948054855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 386175468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d4a800116ad0c8b41b51641d533b103d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _vitessePromenade: 0.5
-  _vitesseDouble: 2
-  _modifierAnimTranslation: 0
 --- !u!114 &8632670369948054859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1857,6 +1842,19 @@ MonoBehaviour:
   m_DefaultActionMap: Personnages
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &8632670369948054860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386175468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4a800116ad0c8b41b51641d533b103d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _vitessePromenade: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
