@@ -2,17 +2,26 @@
     "name": "Mouvement",
     "maps": [
         {
-            "name": "Mouvement",
+            "name": "Personnages",
             "id": "edd359e9-770e-4151-a4bc-ea4b64703287",
             "actions": [
                 {
-                    "name": "ClavierWSAD",
+                    "name": "Promener",
                     "type": "Value",
                     "id": "fc39e2a0-34af-4a35-ac4e-659896320523",
                     "expectedControlType": "Vector2",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "ShiftPressed",
+                    "type": "Button",
+                    "id": "45f2bfee-9eeb-421a-abbf-ce2793fa9e87",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press(behavior=2)",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -23,7 +32,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "ClavierWSAD",
+                    "action": "Promener",
                     "isComposite": true,
                     "isPartOfComposite": false
                 },
@@ -34,7 +43,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "ClavierWSAD",
+                    "action": "Promener",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -45,7 +54,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "ClavierWSAD",
+                    "action": "Promener",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -56,7 +65,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "ClavierWSAD",
+                    "action": "Promener",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
@@ -67,18 +76,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "ClavierWSAD",
+                    "action": "Promener",
                     "isComposite": false,
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "One Modifier",
+                    "id": "60188433-de4e-4ca3-87a6-ac0628e29948",
+                    "path": "OneModifier",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Promener",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "",
-                    "id": "7e8c2fda-aca6-4bdb-9f06-2eb8c93b1187",
+                    "id": "a597705b-52d9-4c79-b9cc-67eefb93d76f",
                     "path": "<Keyboard>/shift",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard&Mouse",
-                    "action": "ClavierWSAD",
+                    "action": "ShiftPressed",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
